@@ -3,8 +3,8 @@
 
 */
 
-var proto = include('@dmail/proto');
-var Notifier = include('@dmail/notifier');
+var proto = include('dmail/proto');
+var Notifier = include('dmail/notifier');
 
 var FileNotifier = proto.extend.call(Notifier, {
 	fileSystem: require('fs'),
